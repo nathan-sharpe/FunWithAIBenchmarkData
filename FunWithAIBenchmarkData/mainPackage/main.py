@@ -1,11 +1,11 @@
 # File Name : {required}
 # Student Name: {required}
 # email:  {required}
-# Assignment Number: Assignment nn {required}
+# Assignment Number: Assignment nn  {required}
 # Due Date:   {required}
 # Course #/Section:   {required}
 # Semester/Year:   {required}
-# Brief Description of the assignment: {required}
+# Brief Description of the assignment:  {required}
 
 # Brief Description of what this module does. {Do not copy/paste from a previous assignment. Put some thought into this. required}
 # Citations: {"Stack Overflow" is not sufficient. Provide repeatable links, book page #, etc.}
@@ -62,7 +62,7 @@ if __name__ == "__main__":
     questions_written = write_questions_to_text_files("MMLU", questions)
     print(questions_written, "questions written to the file.")
     
-    
+    """
     # This code is commented out
     #Reading_Level.test01()
 
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     reading_level_indices = Reading_Level.compute_readability_indices("Dummy Benchmark", text)
     for key in reading_level_indices.keys():
         print(key, ":", reading_level_indices[key])
-
+    """
 
 if __name__ == "__main__":
     csv_path = "dataPackage\\MMLU\\data\\nutrition_test.csv"  # Update path if running from a different directory
