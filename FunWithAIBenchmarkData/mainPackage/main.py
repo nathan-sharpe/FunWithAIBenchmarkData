@@ -74,3 +74,12 @@ if __name__ == "__main__":
     for key in reading_level_indices.keys():
         print(key, ":", reading_level_indices[key])
     """
+
+
+    
+    
+    
+    
+    
+    
+    show_team_image()
