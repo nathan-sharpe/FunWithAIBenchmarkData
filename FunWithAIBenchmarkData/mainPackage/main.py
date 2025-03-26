@@ -78,8 +78,8 @@ if __name__ == "__main__":
 
     
     
-    
-    
-    
+    if __name__ == "__main__":
+        csv_path = "dataPackage\\MMLU\\data\\nutrition_test.csv"  # Update path if running from a different directory
+    create_answer_pie_chart(csv_path)
     
     show_team_image()
