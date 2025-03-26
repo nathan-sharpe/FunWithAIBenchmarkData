@@ -66,6 +66,7 @@
     <Folder Include="dataPackage\" />
     <Folder Include="dataPackage\MMLU\" />
     <Folder Include="dataPackage\MMLU\data\" />
+    <Folder Include="dataPackage\MMLU\img\" />
     <Folder Include="dataPackage\MMLU\results\" />
     <Folder Include="dataVisualizationPackage\" />
     <Folder Include="mainPackage\" />
@@ -131,6 +132,7 @@
     <Content Include="dataPackage\MMLU\data\us_foreign_policy_test.csv" />
     <Content Include="dataPackage\MMLU\data\virology_test.csv" />
     <Content Include="dataPackage\MMLU\data\world_religions_test.csv" />
+    <Content Include="dataPackage\MMLU\img\oddish.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
