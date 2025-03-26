@@ -1,11 +1,11 @@
-# File Name : main.py
+# File Name : {required}
 # Student Name: {required}
 # email:  {required}
-# Assignment Number: Assignment 08
-# Due Date:   3/27/2025
-# Course #/Section:   IS4010-001
-# Semester/Year:   Spring 2025
-# Brief Description of the assignment:  Using logic to create an image and data visualizations with datasets
+# Assignment Number: Assignment ## {required}
+# Due Date:   {required}
+# Course #/Section:   {required}
+# Semester/Year:   {required}
+# Brief Description of the assignment: 
 
 # Brief Description of what this module does. {Do not copy/paste from a previous assignment. Put some thought into this. required}
 # Citations: {"Stack Overflow" is not sufficient. Provide repeatable links, book page #, etc.}
@@ -22,7 +22,7 @@ from dataVisualizationPackage.dataVisualizationNate import *
 from dataVisualizationPackage.imageGenerator import *
 
 
-"""
+
 if __name__ == "__main__":
 
     CSV_Processor = MMLU_CSV_Processor("dataPackage/MMLU/data/", ["management_test.csv"])
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     reading_level_indices = Reading_Level.compute_readability_indices("Dummy Benchmark", text)
     for key in reading_level_indices.keys():
         print(key, ":", reading_level_indices[key])
-"""
+
 
 if __name__ == "__main__":
     csv_path = "dataPackage\\MMLU\\data\\nutrition_test.csv"  # Update path if running from a different directory
